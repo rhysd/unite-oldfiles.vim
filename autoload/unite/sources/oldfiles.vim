@@ -2,6 +2,7 @@ let s:source = {
         \   'name' : 'oldfiles',
         \   'description' : 'candidates from v:oldfiles',
         \   'default_kind' : 'file',
+        \   'hooks' : {},
         \ }
 
 function! unite#sources#oldfiles#define() abort
@@ -13,4 +14,8 @@ function! s:source.gather_candidates(args, context) abort
             \   "word": v:val,
             \   "action__path": expand(v:val),
             \}')
+endfunction
+
+function! s:source.hooks.on_init(args, context) abort
+    wviminfo
 endfunction
