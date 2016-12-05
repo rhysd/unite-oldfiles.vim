@@ -17,5 +17,7 @@ function! s:source.gather_candidates(args, context) abort
 endfunction
 
 function! s:source.hooks.on_init(args, context) abort
+    " Reload ~/.viminfo for files opened after this Vim had started
     wviminfo
+    rviminfo!
 endfunction
