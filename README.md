@@ -1,11 +1,11 @@
 Search `v:oldfiles` Incrementally with [unite.vim](https://github.com/Shougo/unite.vim)
 =======================================================================================
 
-This is a [unite.vim](https://github.com/Shougo/unite.vim) source for `v:oldfiles`. `v:oldfiles` or `:oldfiles` are a list of marked file list in `.viminfo`. Please see `:help oldfiles` to know more detail. There are already many 'Most Recently Used' plugins. This extension intends to be used in minimal usage (who want to use Vim's native feature as much as possible).
+This is a [unite.vim](https://github.com/Shougo/unite.vim) source for `v:oldfiles`. `v:oldfiles` or `:oldfiles` is a list of marked files in `.viminfo`. Please see `:help oldfiles` to know more detail. There are already many 'Most Recently Used' plugins. This extension intends to be used in minimal usage for people who want to use Vim's native feature as much as possible.
 
 ## Installation
 
-Copy `autoload` directory to your `~/.vim` (or `~/vimfiles` in Window) directly or use `:packadd`. Or please use your favorite plugin manager. [unite.vim](https://github.com/Shougo/unite.vim) also should be installed.
+Copy `autoload` directory to your `~/.vim` (or `~/vimfiles` on Windows) directly or use `:packadd`. Or please use your favorite plugin manager. [unite.vim](https://github.com/Shougo/unite.vim) also should be installed.
 
 ## Usage
 
